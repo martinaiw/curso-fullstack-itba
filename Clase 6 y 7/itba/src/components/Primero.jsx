@@ -10,7 +10,7 @@ function Primero(props) {
     return (
         <>
             <h1 className="shadow p-3 mb-5 bg-white rounded border border-success">
-                Hola {nombre}/{props.nombre} {props.apellido}, ¿cómo estás?, tu edad es {suma}
+                Hola!!!! {nombre}/{props.nombre} {props.apellido}, ¿cómo estás?, tu edad es {suma}
             </h1>
         </>
     );
