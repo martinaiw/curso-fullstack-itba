@@ -1,0 +1,45 @@
+Ejercicio 1
+
+Crea una aplicación de React que muestre una tabla de datos.
+La tabla debe tener al menos tres columnas: "Nombre", "Apellido" y "Edad".
+Los datos de la tabla deben ser representados por un array de objetos, donde cada objeto contiene las propiedades "nombre", "apellido" y "edad".
+Muestra los datos de la tabla utilizando componentes de React, asegurándote de que la información se muestre correctamente en cada celda de la tabla.
+Agrega un formulario debajo de la tabla para permitir la inserción de nuevos datos.
+El formulario debe tener campos de entrada para ingresar el nombre, apellido y edad de una persona.
+Al enviar el formulario, los datos ingresados deben ser agregados al array de objetos y actualizados en la tabla.
+Asegúrate de aplicar estilos adecuados para que la tabla y el formulario se vean presentables y sean fáciles de usar.
+-------------------------------------------------------------------------------------------------
+
+Ejercicio 2
+
+Crea una aplicación de React que obtenga datos de una API pública.
+Utiliza la API pública de "Random User" (https://randomuser.me) para obtener información de usuarios aleatorios.
+Realiza una llamada a la API y obtén un conjunto de usuarios (por ejemplo, 10 usuarios).
+Muestra los datos de los usuarios en una tabla, con las siguientes columnas: "Nombre", "Correo electrónico", "Fecha de nacimiento" y "Foto de perfil".
+Cada fila de la tabla debe representar un usuario y mostrar sus respectivos datos.
+Utiliza componentes de React para representar la tabla y las filas de la misma.
+Asegúrate de que la foto de perfil de cada usuario se muestre correctamente en la tabla.
+Aplica estilos adecuados para que la tabla y las imágenes se vean presentables y sean fáciles de visualizar.
+-------------------------------------------------------------------------------------------------
+
+Ejercicio 3
+
+Crea una aplicación de React que incluya un formulario de contacto.
+Diseña un formulario con los siguientes campos: "Nombre", "Correo electrónico" y "Mensaje".
+Utiliza componentes de React para representar los diferentes elementos del formulario, como campos de entrada de texto y un botón de envío.
+Implementa la funcionalidad para capturar los datos ingresados por el usuario en el formulario.
+Valida los campos del formulario para asegurarte de que el usuario complete todos los campos requeridos antes de enviar el formulario.
+Implementa un controlador de eventos para el botón de envío que envíe los datos del formulario a una función de manejo de envío.
+En la función de manejo de envío, muestra los datos ingresados por el usuario en la consola o en una alerta para verificar que se hayan capturado correctamente.
+Aplica estilos adecuados para que el formulario se vea presentable y sea fácil de usar.
+-------------------------------------------------------------------------------------------------
+
+Ejercicio 4
+
+Dado el sigueinte boceto, armar el sitio con React
+
+Divide la interfaz en componentes más pequeños según la estructura del boceto.
+
+
+Puedes utilizar datos estáticos para simular los productos y pasarlos como propiedades a los componentes correspondientes.
+Implementa la funcionalidad de agregar productos al carrito de compras. Puedes utilizar el estado de React para almacenar los productos seleccionados y mostrar la cantidad total en el ícono del carrito en el Header.
