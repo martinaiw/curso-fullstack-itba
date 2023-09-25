@@ -1,0 +1,17 @@
+.container {
+    max-width: 36rem;
+    padding: 0 1rem;
+    margin: 3rem auto 6rem;
+    background-color: rgb(216, 216, 216);
+    color: gray;
+    border-radius: 20px;
+}  
+
+/*Crear un primer post y hacer otra pagina que tenga el resto de los posts
+otro subdirectorio de segundo nvel que tenga un primer comentario y el resto de los comentarios
+todo linkeado y que se pueda volver al inicio
+que en el inicio haya un nav que me permita ir a todas las paginas
+que hay en todas las paginas un volver
+que el nav se repita
+y que el volver se repita tambien
+y que se siga comportando como una SPA*/

@@ -1,0 +1,160 @@
+Ejercicio 1
+
+Debes tomar una página HTML simple y recrearla utilizando React y JSX. La página HTML original tiene la siguiente estructura:
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mi Página</title>
+  </head>
+  <body>
+    <header>
+      <h1>Bienvenido a Mi Página</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Acerca de</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+    <section>
+      <h2>Acerca de</h2>
+      <p>Esta es una página de ejemplo.</p>
+    </section>
+    <footer>
+      <p>Derechos de autor &copy; 2023 Mi Página. Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>
+Tu tarea consiste en crear componentes de React utilizando JSX para replicar la estructura y el contenido de la página HTML. 
+Recuerda utilizar la sintaxis de JSX para renderizar los elementos y utilizar componentes de React para separar la estructura en partes reutilizables. 
+Puedes comenzar creando un componente principal llamado App que englobe todos los elementos de la página. 
+Luego, descomponla en componentes más pequeños según su estructura, como Header, Nav, Section, y Footer. 
+Utiliza los nombres de componentes que consideres apropiados.
+
+------------------------------------------------------------------------------------------------------------------
+
+Ejercicio 2
+
+Tu objetivo es crear una aplicación utilizando React y JSX que replique una página web interactiva que incluya HTML, CSS y JavaScript. La página web original tiene el siguiente contenido:
+
+HTML:
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mi Página Interactiva</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Bienvenido a Mi Página Interactiva</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#" onclick="changeColor('red')">Rojo</a></li>
+        <li><a href="#" onclick="changeColor('green')">Verde</a></li>
+        <li><a href="#" onclick="changeColor('blue')">Azul</a></li>
+      </ul>
+    </nav>
+    <section>
+      <h2>Contenido</h2>
+      <p>Este es el contenido de la página.</p>
+      <button onclick="showAlert()">Mostrar Alerta</button>
+    </section>
+    <footer>
+      <p>Derechos de autor &copy; 2023 Mi Página. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
+CSS (styles.css):
+
+body {
+  background-color: #f1f1f1;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+}
+section {
+  background-color: #fff;
+  padding: 20px;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+JavaScript (script.js):
+
+function changeColor(color) {
+  document.body.style.backgroundColor = color;
+}
+function showAlert() {
+  alert('¡Hola! Esto es una alerta.');
+}
+Tu tarea consiste en recrear la página web utilizando React y JSX, y luego integrar el código HTML, CSS y 
+JavaScript proporcionados.
+
+Crea los componentes necesarios utilizando JSX para replicar la estructura de la página y utilizar CSS 
+para aplicar los estilos correspondientes. 
+Además, debes convertir las funciones JavaScript changeColor y showAlert en componentes de React para 
+manejar los eventos.
+
+Recuerda enlazar el archivo de estilos CSS y el archivo de JavaScript en tu aplicación de React. 
+Una vez que hayas terminado, podrás renderizar la aplicación en el punto de entrada correspondiente.
+
+------------------------------------------------------------------------------------------------------------------
+
+Ejercicio 3
+
+Debes crear un componente de React que renderice un mensaje diferente según una condición dada. 
+El componente debe seguir las siguientes especificaciones:
+
+El componente se llama ConditionalRendering.
+Tiene un estado interno llamado showMessage que es un booleano y se inicia en false.
+Renderiza un elemento div que contiene un título h1.
+Si showMessage es true, el título debe mostrar el mensaje "¡Mensaje mostrado!".
+Si showMessage es false, el título debe mostrar el mensaje "Haz clic para mostrar el mensaje".
+Debajo del título, agrega un botón que al hacer clic cambie el estado de showMessage a su valor 
+opuesto.
+------------------------------------------------------------------------------------------------------------------
+
+Ejercicio 4
+
+Debes crear un componente de React llamado TodoList que renderice una lista de tareas pendientes. El componente debe seguir las siguientes especificaciones:
+
+El componente TodoList recibe una prop llamada todos, que es un arreglo de objetos con la siguiente estructura: { id, task }. 
+Cada objeto representa una tarea con un identificador único (id) y el nombre de la tarea (task).
+Renderiza un elemento ul (lista desordenada).
+Utiliza el método map() para iterar sobre el arreglo todos y renderizar un elemento li (elemento de lista) por cada objeto de la lista.
+Cada li debe mostrar el nombre de la tarea.
+Asigna un atributo key único a cada li utilizando el valor de id de cada objeto de la lista.
+Tu tarea consiste en completar el componente TodoList para que cumpla con las especificaciones mencionadas y renderice correctamente la lista de tareas pendientes.
+
+Ayuda:
+
+const todos = [
+    { id: 1, task: 'Hacer la compra' },
+    { id: 2, task: 'Llamar al médico' },
+    { id: 3, task: 'Enviar el informe' },
+  ];

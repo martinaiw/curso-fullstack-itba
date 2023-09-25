@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+</head>
+
+<body>
+    <!--Formulario de Registro 
+Creá un formulario de registro que solicite la información necesaria para registrarse 
+en un sitio web. 
+El formulario debe contener los siguientes campos: 
+1. Nombre  completo:  Utiliza  un  campo  de  entrada  de  texto  para  que  el  usuario 
+ingrese su nombre completo. 
+2. Correo electrónico: Utiliza un campo de entrada de texto de tipo "email" para 
+que el usuario ingrese su dirección de correo electrónico. 
+3. Contraseña: Utiliza un campo de entrada de texto de tipo "password" para que 
+el usuario ingrese su contraseña. 
+4. Género: Utiliza una lista de selección con opciones para "Masculino", "Femenino" 
+y "Otro". 
+5. País: Utiliza una lista de selección con varias opciones de países  para  que  el 
+usuario seleccione su país de residencia. 
+6. Intereses: Utiliza casillas de verificación para que el usuario seleccione sus 
+intereses. Proporciona opciones como "Deportes", "Música", "Viajes", etc. 
+7. Comentarios:  Utiliza  un  área  de  texto  para  que  el  usuario  pueda  ingresar 
+comentarios adicionales. 
+8. Acepto los términos y condiciones: Utiliza una casilla de verificación para que el 
+usuario acepte los términos y condiciones del sitio web. 
+9. Botón de envío: Agrega un botón de envío para que el usuario pueda enviar el 
+formulario. 
+Además, utilizá etiquetas para asociar correctamente cada campo de entrada con su 
+etiqueta descriptiva.-->
+
+    <h1>Formulario de registro</h1>
+    <form action="" method="POST">
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre">
+        <br>
+        <br>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <br>
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena">
+        <br>
+        <br>
+        <label for="genero">Género</label>
+        <select name="genero" id="genero">
+            <option value="femenino">Femenino</option>
+            <option value="masculino">Masculino</option>
+            <option value="otro">Otro</option>
+        </select>
+        <label for="pais">País:</label>
+        <select id="pais" name="pais">
+            <option value="argentina">Argentina</option>
+            <option value="brasil">Brasil</option>
+            <option value="chile">Chile</option>
+        </select>
+        <br>
+        <br>
+        <label for="comentarios">Comentarios:</label>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="30"></textarea>
+        <br>
+        <br>
+        <input type="checkbox" id="acepto" name="acepto">
+        <label for="acepto">Acepto los términos y condiciones</label>
+        <br>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Reiniciar</button>
+    </form>
+</body>
+
+</html>

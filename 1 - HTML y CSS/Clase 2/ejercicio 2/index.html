@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--Ejercicio 2 
+Creá una página HTML que contenga un índice con los siguientes elementos: 
+ Inicio 
+ Acerca de 
+ Servicios 
+ Contacto 
+Establecé los enlaces para que lleven a diferentes ubicaciones: 
+     El enlace "Inicio" debe llevar al inicio de la página actual. 
+     El enlace "Acerca de" debe llevar a una página externa llamada "acerca.html" y 
+        abrirse en una nueva pestaña o ventana del navegador. 
+     El enlace "Servicios" debe llevar a una página interna llamada "servicios.html" 
+        en la misma ventana o pestaña. 
+     El enlace "Contacto" debe llevar a una sección de la página actual identificada 
+        con el ID "contacto" utilizando un enlace de anclaje. 
+Creá  las páginas "acerca.html" y "servicios.html" con contenido relevante para cada 
+sección.-->
+    <h1>Índice</h1>
+    <nav>
+        <ul type="square">
+            <li>
+                <a href="#inicio">Inicio</a>
+            </li>
+            <li>
+                <a href="acerca.html" target="_blank">Acerca de</a>
+            </li>
+            <li>
+                <a href="servicios.html">Servicios</a>
+            </li>
+            <li>
+                <a href="#contacto">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    <section id="inicio">
+        <hr>
+        Bienvenido al ITBANK
+        <hr>
+    </section>
+    <h2 id="contacto">Contacto</h2>
+    <section>
+        <p>Ingrese sus datos a continuación:</p>
+        <p>Nombre: <input type="text"> Apellido: <input type="text"></p>
+        <p>Email: <input type="email"> Telefono: <input type="tel"></p>
+        <p>Escriba su mensaje: <input type="text"> </p>
+    </section>
+</body>
+
+</html>
