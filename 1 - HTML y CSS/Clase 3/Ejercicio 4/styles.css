@@ -1,0 +1,17 @@
+h2{
+    background-color:lightseagreen;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ol {
+    background-color: #f9f9f9;
+    color: #333333;
+    font-family: monospace;
+    border: 1px solid #cccccc;
+    margin: 10px;
+    list-style-type: "\2611";
+    font-size: 20px;
+}
+li{
+    padding: 5px;
+}

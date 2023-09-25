@@ -1,0 +1,27 @@
+body{
+    background-color: darkslategrey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    background-color: #ffffff;
+    color:  #333333;
+    margin: 10px;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+h4 {
+    font-weight: bold;
+    background-color:khaki;
+    border-radius: 10px;
+    border: khaki;
+    margin: 10px;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+}
+p {
+    padding: 0px 0px 0px 20px;
+}

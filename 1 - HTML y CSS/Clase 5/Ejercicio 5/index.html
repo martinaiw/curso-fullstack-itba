@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+</head>
+
+<body>
+    <!--Desarrollá una página web con una lista vacía y un formulario que permita 
+al usuario agregar nuevos elementos a la lista. Al enviar el formulario, 
+utiliza JavaScript para crear un nuevo elemento <li> con el contenido 
+ingresado por el usuario y agregalo a la lista. 
+ -->
+    <h1>esto es una lista</h1>
+    <ul id="lista">
+
+    </ul>
+    <button onclick="agregarElemento()">Agregar elemento</button>
+    <button onclick="quitarElemento()">Quitar elemento</button>
+
+    <script>
+        function agregarElemento(){
+            var lista = document.getElementById("lista");
+            var nuevoElemento = document.createElement("li");
+            nuevoElemento.textContent = "Nuevo elemento agregado";
+
+            lista.appendChild(nuevoElemento);
+        }
+        function quitarElemento(){
+            var lista = document.getElementById("lista");
+            var ultimoElemento = lista.lastChild;
+
+            if(ultimoElemento){
+                lista.removeChild(ultimoElemento);
+            }
+
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+img {
+    width: 250px;
+}
+
+#descrip {
+    height: auto;
+    padding: 5px;
+    background-color: rgba(164, 219, 75, 0.733);
+    text-align: right;
+    justify-content: center;
+
+}
+
+#precio {
+    height: 20px;
+    font-size: 50px;
+
+}
+
+#titulo {
+    background-color: rgba(164, 219, 75, 0.733);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
